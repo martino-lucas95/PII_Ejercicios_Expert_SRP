@@ -1,17 +1,33 @@
 using System;
+using System.Collections.Generic;
 
 namespace SRP
-{
+{   
+    // Los comentarios fueron realizados en el archivo Program.cs
     public class Biblioteca
     {
-        public string SectorBiblioteca { get ; set; }
-        public string EstanteBiblioteca { get ; set; }
+        public List<Tuple<Libro, string, string>> UbicacionLibros = new List<Tuple<Libro, string, string>>();
 
-        public void AlmacenarLibro(String sector, String estante)
+        public Biblioteca()
         {
-            this.SectorBiblioteca = sector;
-            this.EstanteBiblioteca = estante;
+            this.UbicacionLibros = UbicacionLibros;
         }
 
+        public void AlmacenarLibro(Libro libro, string sector, string estante)
+        {
+            var ubicacion = new Tuple<Libro, string, string>(libro, sector, estante);
+            this.UbicacionLibros.Add(ubicacion);
+        }
+        
+        public void VerBiblioteca()
+        {
+                Console.WriteLine("Biblioteca: \n{");
+                foreach(Tuple<Libro, string, string> tuplaLibro in this.UbicacionLibros)
+                {
+                    Console.WriteLine($"Titulo = {tuplaLibro.Item1.Titulo}\nSector = {tuplaLibro.Item2}\n"+
+                    $"Estante = {tuplaLibro.Item3}\n");
+                }
+                Console.WriteLine("}");
+        }
     }
 }
