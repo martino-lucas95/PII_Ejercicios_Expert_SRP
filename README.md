@@ -1,22 +1,14 @@
-# Universidad Católica del Uruguay
-<img src="https://ucu.edu.uy/sites/all/themes/univer/logo.png"> 
+# Grupo 4 Programación 2
+  Iván Casales
+  Martino Lucas
+  Stib Sosa
+  Sofía Hernandez
 
-## Facultad de Ingeniería y Tecnologías
-## Programación II
+# Ejercicio 1
+1. La parte 1 del ejercicio 1, está realizada a trávez de comentarios en el archivo Libro.cs
+2. La parte 2 es el código modificado
 
-### Expert y SRP
-
-Entendemos que comenzar con los patrónes y principios,
-no es sencillo, por tal motivo diseñamos una serie de ejercicios
-para apoyarte en la comprensión y práctica de los mismos.
-
-Para la entrega de la tarea se pide:
-1. Crear un repositorio público
-2. La estructura del mismo debe ser la siguiente.
-            
-        Repo Expert y SRP        
-        ├── Ejercicio 1
-        └── Ejercicio 2
-3. Cada parte del ejercicio debe ir en su correspondiente rama
-
-    > Ejemplo: Si se nos pide críticar el ejercicio 1 en base a los patrónes y principios; Creamos una rama con el nombre por ejemplo "ejercicio1-justificación"
+# Ejercicio 2
+1. La parte 1 del ejercicio se encuentra en un archivo .md
+2. La parte 2, de realizar las tarjetas CRC, se encuentra en el archivo "Ejercicio 2 Tarjetas CRC"
+3. La parte 3 es el código modificado

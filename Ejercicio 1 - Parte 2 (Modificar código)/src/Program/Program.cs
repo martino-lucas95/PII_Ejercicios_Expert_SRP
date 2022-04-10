@@ -3,13 +3,6 @@ using System.Collections.Generic;
 
 namespace SRP
 {
-    /* 
-    Concluimos en que la clase Libro no cumplía con el principio SRP, ya que tenía tanto la 
-    responsabilidad de conocer los atributos del libro, como de almacenar en el sector y estante correspondiente. 
-    Por lo tanto decidimos crear una nueva clase llamada Biblioteca, donde ingresamos los libros que son creados, 
-    indicando el sector y el estante.
-    --Los métodos VerBiblioteca y VerLibro los utilizamos para verificar que el código funciona correctamente--
-    */
     class Program
     {
         static void Main(string[] args)

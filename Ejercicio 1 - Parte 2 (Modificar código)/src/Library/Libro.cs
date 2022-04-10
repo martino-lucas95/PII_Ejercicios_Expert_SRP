@@ -2,7 +2,7 @@
 
 namespace SRP
 {   
-    // Los comentarios fueron realizados en el archivo Program.cs
+    // El método VerLibro se utiliza para verificar que el código funciona correctamente en Program.cs
     public class Libro
     {
         public string Titulo { get ; }

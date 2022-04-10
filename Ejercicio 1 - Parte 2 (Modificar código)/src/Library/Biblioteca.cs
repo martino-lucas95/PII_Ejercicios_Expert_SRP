@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SRP
 {   
-    // Los comentarios fueron realizados en el archivo Program.cs
+    // El método VerBiblioteca se utiliza para verificar que el código funciona correctamente en Program.cs
     public class Biblioteca
     {
         public List<Tuple<Libro, string, string>> UbicacionLibros = new List<Tuple<Libro, string, string>>();
